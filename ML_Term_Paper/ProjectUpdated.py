@@ -89,7 +89,7 @@ plt.savefig("output/regression_diagnostic.png", dpi=300)
 
 # --- THE PREFERRED OUTPUT ---
 print("\n" + "="*80)
-print("STATISTICAL EVIDENCE FOR CHAPTER 5")
+print("STATISTICAL EVIDENCE")
 print("="*80)
 print(f"1. WELCH'S T-TEST: p-value = {p_val:.5f} | Cohen's d = {effect_size:.3f}")
 print(f"2. BOOTSTRAPPED 95% CI (HRL - MRL difference): {ci_95[0]:.2f} to {ci_95[1]:.2f}")
